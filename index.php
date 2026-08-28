@@ -237,61 +237,139 @@
         </section>
 
 
-        <!-- ==================== ABOUT ==================== -->
-        <section class="section about" id="about">
+        <!-- =========================
+     ABOUT
+     ========================= -->
 
-            <div class="container">
+<section class="section about" id="about">
 
-                <div class="section-heading">
-                    <span class="section-label">01 — About Me</span>
+    <div class="container">
 
-                    <h2>
-                        Turning ideas into
-                        <span>digital reality.</span>
-                    </h2>
-                </div>
+        <div class="section-heading">
+            <span class="section-label">About Me</span>
 
-                <div class="about-grid">
+            <h2>
+                I build websites
+                <span>that mean business.</span>
+            </h2>
+        </div>
 
-                    <div class="about-image">
-                        <div class="profile-placeholder">
-                            <span>&lt;/&gt;</span>
-                            <p>Your Photo</p>
-                        </div>
+
+        <div class="about-grid">
+
+            <!-- Profile Visual -->
+            <div class="about-image">
+
+                <div class="about-grid-bg"></div>
+
+                <div class="profile-card">
+
+                    <div class="profile-avatar">
+                        AM
                     </div>
 
-                    <div class="about-content">
-
-                        <p class="about-lead">
-                            I'm a passionate Web Developer focused on building
-                            clean, modern and user-friendly websites.
-                        </p>
-
-                        <p>
-                            I work with HTML, CSS, JavaScript, PHP and MySQL
-                            to create websites that don't just look good,
-                            but also work smoothly across different devices.
-                        </p>
-
-                        <p>
-                            Whether you need a business website, landing page,
-                            dynamic PHP website or help fixing an existing
-                            website, I focus on delivering practical and
-                            professional solutions.
-                        </p>
-
-                        <a href="#contact" class="text-link">
-                            Let's work together
-                            <span>↗</span>
-                        </a>
-
+                    <div class="profile-info">
+                        <strong>Ayaz Modan</strong>
+                        <span>Web Developer</span>
                     </div>
 
                 </div>
+
+
+                <div class="floating-code code-one">
+                    &lt;code /&gt;
+                </div>
+
+                <div class="floating-code code-two">
+                    PHP + MySQL
+                </div>
+
+                <div class="about-decoration"></div>
 
             </div>
 
-        </section>
+
+            <!-- About Content -->
+            <div class="about-content">
+
+                <p class="about-lead">
+                    I'm a web developer focused on creating
+                    clean, modern and business-focused websites
+                    for individuals and small businesses.
+                </p>
+
+                <p>
+                    I work with HTML, CSS, JavaScript, PHP and MySQL
+                    to turn ideas into responsive websites that look
+                    professional and work smoothly across devices.
+                </p>
+
+                <p>
+                    Whether you need a business website, landing page,
+                    custom PHP/MySQL website or help fixing an existing
+                    website, I focus on clean code, modern UI and a
+                    great user experience.
+                </p>
+
+
+                <!-- About Highlights -->
+
+                <div class="about-highlights">
+
+                    <div class="about-highlight">
+                        <span>01</span>
+
+                        <div>
+                            <strong>Clean UI</strong>
+                            <p>Modern and user-friendly interfaces.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="about-highlight">
+                        <span>02</span>
+
+                        <div>
+                            <strong>Responsive</strong>
+                            <p>Designed for mobile, tablet and desktop.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="about-highlight">
+                        <span>03</span>
+
+                        <div>
+                            <strong>Reliable Code</strong>
+                            <p>Structured and maintainable development.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="about-highlight">
+                        <span>04</span>
+
+                        <div>
+                            <strong>Client Focused</strong>
+                            <p>Built around real business requirements.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <a href="#contact" class="text-link">
+                    Let's work together
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
         <!-- ==================== SKILLS ==================== -->
