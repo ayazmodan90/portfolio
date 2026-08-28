@@ -372,63 +372,90 @@
 </section>
 
 
-        <!-- ==================== SKILLS ==================== -->
-        <section class="section skills" id="skills">
+        <!-- =========================
+     SKILLS
+     ========================= -->
 
-            <div class="container">
+<section class="section skills" id="skills">
 
-                <div class="section-heading centered">
-                    <span class="section-label">02 — Skills</span>
+    <div class="container">
 
-                    <h2>
-                        Tools I use to
-                        <span>build websites.</span>
-                    </h2>
+        <div class="section-heading centered">
+            <span class="section-label">My Expertise</span>
+
+            <h2>
+                Technologies I use to
+                <span>build modern websites.</span>
+            </h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">H</div>
+                    <span>95%</span>
                 </div>
-
-                <div class="skills-grid">
-
-                    <div class="skill-card">
-                        <span class="skill-number">01</span>
-                        <h3>HTML5</h3>
-                        <p>Semantic and SEO-friendly website structure.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <span class="skill-number">02</span>
-                        <h3>CSS3</h3>
-                        <p>Modern layouts, responsive design and animations.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <span class="skill-number">03</span>
-                        <h3>JavaScript</h3>
-                        <p>Interactive and dynamic user experiences.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <span class="skill-number">04</span>
-                        <h3>PHP</h3>
-                        <p>Dynamic websites and powerful backend functionality.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <span class="skill-number">05</span>
-                        <h3>MySQL</h3>
-                        <p>Structured database solutions for web applications.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <span class="skill-number">06</span>
-                        <h3>Responsive Design</h3>
-                        <p>Websites optimized for desktop, tablet and mobile.</p>
-                    </div>
-
-                </div>
-
+                <h3>HTML5</h3>
+                <p>Semantic, SEO-friendly and accessible structure.</p>
+                <div class="skill-bar"><div class="fill html"></div></div>
             </div>
 
-        </section>
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">C</div>
+                    <span>92%</span>
+                </div>
+                <h3>CSS3</h3>
+                <p>Responsive layouts, Flexbox, Grid & animations.</p>
+                <div class="skill-bar"><div class="fill css"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">JS</div>
+                    <span>88%</span>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Interactive UI and dynamic user experience.</p>
+                <div class="skill-bar"><div class="fill js"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">P</div>
+                    <span>90%</span>
+                </div>
+                <h3>PHP</h3>
+                <p>Backend development & custom functionality.</p>
+                <div class="skill-bar"><div class="fill php"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">DB</div>
+                    <span>85%</span>
+                </div>
+                <h3>MySQL</h3>
+                <p>Database design and efficient queries.</p>
+                <div class="skill-bar"><div class="fill mysql"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <div class="skill-icon">R</div>
+                    <span>100%</span>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Perfect experience across desktop & mobile.</p>
+                <div class="skill-bar"><div class="fill responsive"></div></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
         <!-- =========================
