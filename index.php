@@ -743,6 +743,43 @@
 
                     <form action="php/contact.php" method="POST" class="contact-form">
 
+                        <section class="section contact" id="contact">
+
+                        <?php
+
+                        $status = $_GET["status"] ?? "";
+
+                        if ($status === "success") {
+                        echo '
+                        <div class="form-message success">
+                        <span>✓</span>
+                        Your message has been sent successfully.
+                            I will get back to you soon.
+                        </div>
+                        ';
+                
+                        }
+
+                        if ($status === "error") {
+                        echo '
+                        <div class="form-message error">
+                        <span>!</span>
+                        Something went wrong. Please try again.
+                        </div>
+                        ';
+                        }
+
+                        if ($status === "invalid-email") {
+                        echo '
+                        <div class="form-message error">
+                            <span>!</span>
+                                Please enter a valid email address.
+                        </div>
+                            ';
+                        }
+
+                        ?>
+
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input

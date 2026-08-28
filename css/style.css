@@ -1905,3 +1905,61 @@ img {
     }
 
 }
+
+/* =========================
+   FORM MESSAGE
+   ========================= */
+
+.form-message {
+    max-width: 700px;
+
+    margin: -25px auto 45px;
+
+    padding: 14px 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.form-message span {
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-weight: 700;
+}
+
+.form-message.success {
+    color: #86efac;
+
+    background: rgba(34, 197, 94, 0.06);
+
+    border: 1px solid rgba(34, 197, 94, 0.16);
+}
+
+.form-message.success span {
+    background: rgba(34, 197, 94, 0.12);
+}
+
+.form-message.error {
+    color: #fca5a5;
+
+    background: rgba(239, 68, 68, 0.06);
+
+    border: 1px solid rgba(239, 68, 68, 0.16);
+}
+
+.form-message.error span {
+    background: rgba(239, 68, 68, 0.12);
+}
