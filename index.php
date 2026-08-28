@@ -57,153 +57,248 @@
 
     <main>
 
-        <!-- ==================== HERO ==================== -->
-        <section class="hero" id="home">
+        <!-- =========================
+     HERO
+     ========================= -->
 
-            <div class="hero-glow hero-glow-one"></div>
-            <div class="hero-glow hero-glow-two"></div>
+<section class="hero" id="home">
 
-            <div class="container hero-container">
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
 
-                <div class="hero-content">
+    <div class="container">
 
-                    <div class="availability">
-                        <span class="status-dot"></span>
-                        Available for freelance work
+        <div class="hero-grid">
+
+            <!-- LEFT CONTENT -->
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span></span>
+                    Available for freelance work
+                </div>
+
+                <p class="hero-intro">
+                    Hi, I'm Ayaz —
+                    <strong>Web Developer</strong>
+                </p>
+
+                <h1>
+                    I build modern
+                    <span>websites</span>
+                    for growing businesses.
+                </h1>
+
+                <p class="hero-description">
+                    I create clean, responsive and professional websites
+                    using HTML, CSS, JavaScript, PHP and MySQL —
+                    designed to turn ideas into real business results.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn btn-primary">
+                        Hire Me
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#projects" class="btn btn-outline">
+                        View Projects
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="hero-tech">
+
+                    <span>HTML5</span>
+                    <i></i>
+
+                    <span>CSS3</span>
+                    <i></i>
+
+                    <span>JavaScript</span>
+                    <i></i>
+
+                    <span>PHP</span>
+                    <i></i>
+
+                    <span>MySQL</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT VISUAL -->
+            <div class="hero-visual">
+
+                <div class="hero-orbit orbit-one"></div>
+                <div class="hero-orbit orbit-two"></div>
+
+
+                <!-- Main glass card -->
+
+                <div class="hero-glass-card">
+
+                    <div class="glass-top">
+
+                        <div class="glass-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <small>developer.profile</small>
+
                     </div>
 
-                    <p class="hero-small-title">
-                        Hello, I'm Ayaz
-                    </p>
 
-                    <h1>
-                        I BUILD
-                        <span>DIGITAL</span>
-                        EXPERIENCES.
-                    </h1>
-
-                    <p class="hero-description">
-                        I'm a Web Developer & Freelancer creating modern,
-                        responsive and professional websites that help
-                        businesses grow online.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">
-                            Hire Me
-                            <span>↗</span>
-                        </a>
-
-                        <a href="#projects" class="btn btn-secondary">
-                            View My Work
-                            <span>↓</span>
-                        </a>
+                    <div class="hero-avatar">
+                        AM
                     </div>
 
-                    <div class="hero-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
+
+                    <h2>
+                        Ayaz Modan
+                    </h2>
+
+                    <p>
+                        Full Stack Web Developer
+                    </p>
+
+
+                    <div class="hero-card-line"></div>
+
+
+                    <div class="hero-card-stack">
+
+                        <span>&lt;HTML&gt;</span>
+                        <span>{ CSS }</span>
+                        <span>JS()</span>
                         <span>PHP</span>
                         <span>MySQL</span>
+
+                    </div>
+
+
+                    <div class="hero-card-footer">
+
+                        <span>
+                            <i></i>
+                            Open to work
+                        </span>
+
+                        <strong>01</strong>
+
                     </div>
 
                 </div>
 
 
-                <!-- Developer Card -->
-                <div class="hero-visual">
+                <!-- Floating card 1 -->
 
-                    <div class="code-card">
+                <div class="floating-card floating-card-one">
 
-                        <div class="code-header">
-                            <div class="window-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
+                    <span class="floating-icon">
+                        ↗
+                    </span>
 
-                            <span class="code-title">developer.php</span>
-                        </div>
-
-                        <div class="code-body">
-
-                            <div>
-                                <span class="code-number">01</span>
-                                <span class="code-keyword">&lt;?php</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">02</span>
-                                <span class="code-keyword">$developer</span>
-                                <span> = [</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">03</span>
-                                <span class="code-property">'name'</span>
-                                <span> =&gt; </span>
-                                <span class="code-string">'Ayaz'</span>
-                                <span>,</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">04</span>
-                                <span class="code-property">'role'</span>
-                                <span> =&gt; </span>
-                                <span class="code-string">'Web Developer'</span>
-                                <span>,</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">05</span>
-                                <span class="code-property">'skills'</span>
-                                <span> =&gt; [</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">06</span>
-                                <span class="code-string">'PHP'</span>
-                                <span>, </span>
-                                <span class="code-string">'JS'</span>
-                                <span>, </span>
-                                <span class="code-string">'MySQL'</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">07</span>
-                                <span>]</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">08</span>
-                                <span>];</span>
-                            </div>
-
-                            <div>
-                                <span class="code-number">09</span>
-                                <span class="code-keyword">?&gt;</span>
-                            </div>
-
-                        </div>
-
-                        <div class="code-status">
-                            <span class="status-dot"></span>
-                            Open for new projects
-                        </div>
-
+                    <div>
+                        <strong>Responsive</strong>
+                        <small>Every device</small>
                     </div>
 
                 </div>
 
+
+                <!-- Floating card 2 -->
+
+                <div class="floating-card floating-card-two">
+
+                    <span class="floating-icon">
+                        ⚡
+                    </span>
+
+                    <div>
+                        <strong>Clean Code</strong>
+                        <small>Built to scale</small>
+                    </div>
+
+                </div>
+
+
+                <!-- Decorative code -->
+
+                <div class="hero-code code-top">
+                    &lt;/&gt;
+                </div>
+
+                <div class="hero-code code-bottom">
+                    010101
+                </div>
+
             </div>
 
-            <div class="hero-scroll">
-                <span>Scroll to explore</span>
-                <span class="scroll-line"></span>
+        </div>
+
+
+        <!-- HERO STATS -->
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+
+                <strong>04+</strong>
+
+                <span>
+                    Featured Projects
+                </span>
+
             </div>
 
-        </section>
+
+            <div class="hero-stat">
+
+                <strong>05</strong>
+
+                <span>
+                    Core Technologies
+                </span>
+
+            </div>
+
+
+            <div class="hero-stat">
+
+                <strong>100%</strong>
+
+                <span>
+                    Responsive Design
+                </span>
+
+            </div>
+
+
+            <div class="hero-stat hero-stat-cta">
+
+                <span>
+                    Have a project?
+                </span>
+
+                <a href="#contact">
+                    Let's talk →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
         <!-- ==================== TECHNOLOGY STRIP ==================== -->
