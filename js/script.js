@@ -134,3 +134,39 @@ revealElements.forEach(element => {
    ========================= */
 
 console.log("Ayaz Portfolio loaded successfully.");
+
+/* =========================================================
+   CONTACT FORM
+   ========================================================= */
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function (event) {
+
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const service = document.getElementById("service");
+        const message = document.getElementById("message");
+
+        if (
+            name.value.trim().length < 2 ||
+            !email.validity.valid ||
+            service.value === "" ||
+            message.value.trim().length < 10
+        ) {
+
+            event.preventDefault();
+
+            contactForm.classList.add("form-shake");
+
+            setTimeout(() => {
+                contactForm.classList.remove("form-shake");
+            }, 450);
+
+        }
+
+    });
+
+}

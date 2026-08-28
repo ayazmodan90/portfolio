@@ -431,71 +431,195 @@
         </section>
 
 
-        <!-- ==================== SERVICES ==================== -->
-        <section class="section services" id="services">
+        <!-- =========================
+     SERVICES
+     ========================= -->
 
-            <div class="container">
+<section class="section services" id="services">
 
-                <div class="section-heading">
-                    <span class="section-label">03 — Services</span>
+    <div class="container">
 
-                    <h2>
-                        What I can
-                        <span>build for you.</span>
-                    </h2>
+        <div class="section-heading">
+            <span class="section-label">What I Do</span>
+
+            <h2>
+                Websites built for
+                <span>real business goals.</span>
+            </h2>
+
+            <p class="section-description">
+                From simple business websites to custom PHP applications,
+                I build clean, responsive and practical web solutions.
+            </p>
+        </div>
+
+
+        <div class="services-grid">
+
+            <!-- Service 01 -->
+            <article class="service-card">
+
+                <div class="service-top">
+                    <span class="service-number">01</span>
+
+                    <div class="service-icon">
+                        &lt;/&gt;
+                    </div>
                 </div>
 
-                <div class="services-grid">
+                <h3>Business Website</h3>
 
-                    <article class="service-card">
-                        <span class="service-number">01</span>
-                        <div class="service-icon">◈</div>
-                        <h3>Business Website</h3>
-                        <p>
-                            Professional websites that help your business
-                            establish a strong online presence.
-                        </p>
-                        <a href="#contact">Get Started ↗</a>
-                    </article>
+                <p>
+                    A professional online presence designed to make
+                    your business look trustworthy and help customers
+                    understand what you offer.
+                </p>
 
-                    <article class="service-card">
-                        <span class="service-number">02</span>
-                        <div class="service-icon">◇</div>
-                        <h3>Landing Page</h3>
-                        <p>
-                            Clean and conversion-focused landing pages
-                            designed around your goals.
-                        </p>
-                        <a href="#contact">Get Started ↗</a>
-                    </article>
+                <ul>
+                    <li>Professional UI design</li>
+                    <li>Responsive on all devices</li>
+                    <li>Business information sections</li>
+                    <li>Contact / inquiry form</li>
+                </ul>
 
-                    <article class="service-card">
-                        <span class="service-number">03</span>
-                        <div class="service-icon">⌘</div>
-                        <h3>PHP / MySQL Website</h3>
-                        <p>
-                            Dynamic database-powered websites with
-                            custom PHP functionality.
-                        </p>
-                        <a href="#contact">Get Started ↗</a>
-                    </article>
+                <a href="#contact" class="service-link">
+                    Discuss your project
+                    <span>↗</span>
+                </a>
 
-                    <article class="service-card">
-                        <span class="service-number">04</span>
-                        <div class="service-icon">⚡</div>
-                        <h3>Website Bug Fixing</h3>
-                        <p>
-                            Fixing layout, responsive, JavaScript and
-                            PHP issues in existing websites.
-                        </p>
-                        <a href="#contact">Get Started ↗</a>
-                    </article>
+            </article>
 
+
+            <!-- Service 02 -->
+            <article class="service-card featured">
+
+                <div class="service-badge">
+                    Popular
                 </div>
 
+                <div class="service-top">
+                    <span class="service-number">02</span>
+
+                    <div class="service-icon">
+                        ◇
+                    </div>
+                </div>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    A focused landing page built around one goal:
+                    generating leads, promoting a service or turning
+                    visitors into customers.
+                </p>
+
+                <ul>
+                    <li>Conversion-focused layout</li>
+                    <li>Strong call-to-action</li>
+                    <li>Mobile-first responsive design</li>
+                    <li>Fast and clean interface</li>
+                </ul>
+
+                <a href="#contact" class="service-link">
+                    Discuss your project
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- Service 03 -->
+            <article class="service-card">
+
+                <div class="service-top">
+                    <span class="service-number">03</span>
+
+                    <div class="service-icon">
+                        PHP
+                    </div>
+                </div>
+
+                <h3>PHP / MySQL Website</h3>
+
+                <p>
+                    Custom dynamic websites powered by PHP and MySQL
+                    for projects that need data, forms, authentication
+                    or an admin dashboard.
+                </p>
+
+                <ul>
+                    <li>PHP backend development</li>
+                    <li>MySQL database integration</li>
+                    <li>Dynamic content</li>
+                    <li>Admin functionality</li>
+                </ul>
+
+                <a href="#contact" class="service-link">
+                    Discuss your project
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- Service 04 -->
+            <article class="service-card">
+
+                <div class="service-top">
+                    <span class="service-number">04</span>
+
+                    <div class="service-icon">
+                        JS
+                    </div>
+                </div>
+
+                <h3>Website Bug Fixing</h3>
+
+                <p>
+                    I can help troubleshoot broken layouts, JavaScript
+                    issues, PHP errors and other problems affecting
+                    your existing website.
+                </p>
+
+                <ul>
+                    <li>UI and layout fixes</li>
+                    <li>JavaScript debugging</li>
+                    <li>PHP error fixing</li>
+                    <li>Responsive issues</li>
+                </ul>
+
+                <a href="#contact" class="service-link">
+                    Discuss your project
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+        </div>
+
+
+        <!-- Bottom CTA -->
+
+        <div class="services-cta">
+
+            <div>
+                <span>Have something specific in mind?</span>
+
+                <strong>
+                    Let's build something useful together.
+                </strong>
             </div>
 
-        </section>
+            <a href="#contact" class="btn btn-primary">
+                Start a Project
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
 
         <!-- =========================
@@ -951,108 +1075,167 @@
         </section>
 
 
-        <!-- ==================== CONTACT ==================== -->
-        <section class="section contact" id="contact">
+        <!-- =========================
+     CONTACT
+     ========================= -->
 
-            <div class="container">
+<section class="section contact" id="contact">
 
-                <div class="section-heading centered">
-                    <span class="section-label">06 — Contact</span>
+    <div class="container">
 
-                    <h2>
-                        Let's talk about
-                        <span>your project.</span>
-                    </h2>
+        <div class="section-heading">
+            <span class="section-label">Let's Talk</span>
+
+            <h2>
+                Have a project
+                <span>in mind?</span>
+            </h2>
+
+            <p class="section-description">
+                Tell me what you're looking to build. I'll review your
+                requirements and get back to you with the next steps.
+            </p>
+        </div>
+
+
+        <div class="contact-grid">
+
+            <!-- =========================
+                 CONTACT INFO
+                 ========================= -->
+
+            <div class="contact-info">
+
+                <div class="contact-intro">
+
+                    <span class="contact-eyebrow">
+                        START A CONVERSATION
+                    </span>
+
+                    <h3>
+                        Let's turn your idea
+                        into something real.
+                    </h3>
+
+                    <p>
+                        Whether you need a new website, a landing page,
+                        custom PHP development or help fixing an existing
+                        website, I'm happy to discuss your project.
+                    </p>
+
                 </div>
 
-                <div class="contact-grid">
 
-                    <div class="contact-info">
+                <!-- WhatsApp -->
 
-                        <h3>Have a project in mind?</h3>
+                <a
+                    href="https://wa.me/9979971158"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-method"
+                >
 
-                        <p>
-                            Tell me what you're looking to build and
-                            I'll get back to you as soon as possible.
-                        </p>
-
-                        <div class="contact-links">
-
-                            <a href="https://wa.me/" class="contact-item">
-                                <span class="contact-icon">WA</span>
-                                <div>
-                                    <small>WhatsApp</small>
-                                    <strong>Let's Chat</strong>
-                                </div>
-                                <span>↗</span>
-                            </a>
-
-                            <a href="mailto:your@email.com" class="contact-item">
-                                <span class="contact-icon">@</span>
-                                <div>
-                                    <small>Email</small>
-                                    <strong>your@email.com</strong>
-                                </div>
-                                <span>↗</span>
-                            </a>
-
-                        </div>
-
+                    <div class="contact-method-icon whatsapp-icon">
+                        WA
                     </div>
 
+                    <div class="contact-method-content">
+                        <span>Quickest Response</span>
+                        <strong>Chat on WhatsApp</strong>
+                    </div>
 
-                    <form action="php/contact.php" method="POST" class="contact-form">
+                    <span class="contact-arrow">↗</span>
 
-                        <section class="section contact" id="contact">
+                </a>
 
-                        <?php
 
-                        $status = $_GET["status"] ?? "";
+                <!-- Email -->
 
-                        if ($status === "success") {
-                        echo '
-                        <div class="form-message success">
-                        <span>✓</span>
-                        Your message has been sent successfully.
-                            I will get back to you soon.
-                        </div>
-                        ';
-                
-                        }
+                <a
+                    href="mailto:ayazmodan9090@gmail.com"
+                    class="contact-method"
+                >
 
-                        if ($status === "error") {
-                        echo '
-                        <div class="form-message error">
-                        <span>!</span>
-                        Something went wrong. Please try again.
-                        </div>
-                        ';
-                        }
+                    <div class="contact-method-icon email-icon">
+                        @
+                    </div>
 
-                        if ($status === "invalid-email") {
-                        echo '
-                        <div class="form-message error">
-                            <span>!</span>
-                                Please enter a valid email address.
-                        </div>
-                            ';
-                        }
+                    <div class="contact-method-content">
+                        <span>Email Me</span>
+                        <strong>YOUR_EMAIL@example.com</strong>
+                    </div>
 
-                        ?>
+                    <span class="contact-arrow">↗</span>
+
+                </a>
+
+
+                <div class="contact-availability">
+
+                    <span class="availability-dot"></span>
+
+                    <div>
+                        <strong>Available for freelance work</strong>
+                        <p>Currently accepting new projects.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 CONTACT FORM
+                 ========================= -->
+
+            <div class="contact-form-wrapper">
+
+                <div class="form-header">
+                    <span>01</span>
+
+                    <div>
+                        <h3>Tell me about your project</h3>
+
+                        <p>
+                            Usually takes less than 2 minutes.
+                        </p>
+                    </div>
+                </div>
+
+
+                <form
+                    action="php/contact.php"
+                    method="POST"
+                    class="contact-form"
+                    id="contactForm"
+                >
+
+                    <div class="form-row">
 
                         <div class="form-group">
-                            <label for="name">Your Name</label>
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
                             <input
                                 type="text"
                                 id="name"
                                 name="name"
                                 placeholder="John Doe"
                                 required
+                                minlength="2"
                             >
+
                         </div>
 
+
                         <div class="form-group">
-                            <label for="email">Email Address</label>
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
                             <input
                                 type="email"
                                 id="email"
@@ -1060,45 +1243,97 @@
                                 placeholder="john@example.com"
                                 required
                             >
+
                         </div>
 
-                        <div class="form-group">
-                            <label for="service">What do you need?</label>
+                    </div>
 
-                            <select id="service" name="service" required>
-                                <option value="">Select a service</option>
-                                <option value="Business Website">Business Website</option>
-                                <option value="Landing Page">Landing Page</option>
-                                <option value="PHP/MySQL Website">PHP/MySQL Website</option>
-                                <option value="Website Bug Fixing">Website Bug Fixing</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
 
-                        <div class="form-group">
-                            <label for="message">Project Details</label>
+                    <div class="form-group">
 
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="6"
-                                placeholder="Tell me a little about your project..."
-                                required
-                            ></textarea>
-                        </div>
+                        <label for="service">
+                            What do you need?
+                        </label>
 
-                        <button type="submit" class="btn btn-primary form-button">
-                            Send Message
-                            <span>↗</span>
-                        </button>
+                        <select
+                            id="service"
+                            name="service"
+                            required
+                        >
 
-                    </form>
+                            <option value="" selected disabled>
+                                Select a service
+                            </option>
 
-                </div>
+                            <option value="Business Website">
+                                Business Website
+                            </option>
+
+                            <option value="Landing Page">
+                                Landing Page
+                            </option>
+
+                            <option value="PHP/MySQL Website">
+                                PHP / MySQL Website
+                            </option>
+
+                            <option value="Website Bug Fixing">
+                                Website Bug Fixing
+                            </option>
+
+                            <option value="Other">
+                                Something Else
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Project Details
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell me a little about your project, goals and requirements..."
+                            required
+                            minlength="10"
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="form-submit"
+                    >
+
+                        <span>Send Project Inquiry</span>
+
+                        <span class="submit-arrow">↗</span>
+
+                    </button>
+
+
+                    <p class="form-note">
+                        Your information is only used to respond
+                        to your project inquiry.
+                    </p>
+
+                </form>
 
             </div>
 
-        </section>
+        </div>
+
+    </div>
+
+</section>
 
     </main>
 
