@@ -170,3 +170,101 @@ if (contactForm) {
     });
 
 }
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+const siteHeader = document.getElementById("siteHeader");
+const menuToggle = document.getElementById("menuToggle");
+const mainNav = document.getElementById("mainNav");
+const navLinks = document.querySelectorAll(".nav-link");
+
+
+/* Header scroll effect */
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 40) {
+        siteHeader.classList.add("scrolled");
+    } else {
+        siteHeader.classList.remove("scrolled");
+    }
+
+});
+
+
+/* Mobile menu */
+
+if (menuToggle) {
+
+    menuToggle.addEventListener("click", () => {
+
+        const isOpen =
+            menuToggle.classList.toggle("active");
+
+        mainNav.classList.toggle("open");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            isOpen
+        );
+
+    });
+
+}
+
+
+/* Close mobile menu after clicking */
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        menuToggle.classList.remove("active");
+
+        mainNav.classList.remove("open");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            "false"
+        );
+
+    });
+
+});
+
+
+/* Active navigation */
+
+const sections = document.querySelectorAll("section[id]");
+
+window.addEventListener("scroll", () => {
+
+    let currentSection = "";
+
+    sections.forEach(section => {
+
+        const sectionTop =
+            section.offsetTop - 160;
+
+        if (window.scrollY >= sectionTop) {
+            currentSection = section.getAttribute("id");
+        }
+
+    });
+
+    navLinks.forEach(link => {
+
+        link.classList.remove("active");
+
+        if (
+            link.getAttribute("href") ===
+            `#${currentSection}`
+        ) {
+            link.classList.add("active");
+        }
+
+    });
+
+});

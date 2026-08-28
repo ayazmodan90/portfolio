@@ -22,37 +22,72 @@
 <body>
 
     <!-- ==================== HEADER ==================== -->
-    <header class="header" id="header">
-        <div class="container nav-container">
+    <!-- =========================
+     NAVBAR
+     ========================= -->
 
-            <a href="#home" class="logo">
-                <span class="logo-bracket">&lt;</span>
-                Ayaz
-                <span class="logo-bracket">/&gt;</span>
+<header class="site-header" id="siteHeader">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-mark">A</span>
+
+            <span class="logo-text">
+                Ayaz<span>.</span>
+            </span>
+        </a>
+
+
+        <nav class="main-nav" id="mainNav">
+
+            <a href="#home" class="nav-link active">
+                Home
             </a>
 
-            <nav class="nav" id="nav">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#services" class="nav-link">Services</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </nav>
-
-            <a href="#contact" class="nav-cta">
-                Hire Me
-                <span>↗</span>
+            <a href="#about" class="nav-link">
+                About
             </a>
 
-            <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <a href="#skills" class="nav-link">
+                Skills
+            </a>
 
-        </div>
-    </header>
+            <a href="#services" class="nav-link">
+                Services
+            </a>
+
+            <a href="#projects" class="nav-link">
+                Projects
+            </a>
+
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a href="#contact" class="nav-cta">
+            Hire Me
+            <span>↗</span>
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
 
 
     <main>
@@ -744,7 +779,7 @@
 </section>
 
 
-        <!-- =========================
+    <!-- =========================
      PROJECTS
      ========================= -->
 
@@ -753,212 +788,284 @@
     <div class="container">
 
         <div class="section-heading">
+
             <span class="section-label">Selected Work</span>
 
             <h2>
                 Projects that turn
-                <span>ideas into websites.</span>
+                <span>ideas into experiences.</span>
             </h2>
+
+            <p class="section-description">
+                A selection of websites and web applications built with
+                a focus on clean UI, responsive design and practical
+                functionality.
+            </p>
+
         </div>
 
 
-        <div class="projects-grid">
+        <div class="projects-list">
 
-            <!-- Project 01 -->
-            <article class="project-card">
 
-                <div class="project-image project-restaurant">
+            <!-- =========================
+                 PROJECT 01
+                 ========================= -->
 
-                    <div class="project-browser">
+            <article class="project-item">
+
+                <div class="project-preview restaurant-preview">
+
+                    <div class="browser-window">
 
                         <div class="browser-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
 
-                            <small>restaurant-demo.com</small>
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="browser-address">
+                                restaurant.demo
+                            </div>
+
                         </div>
 
-                        <div class="browser-content">
-                            <div class="mock-nav">
-                                <strong>LAZEEZ</strong>
 
-                                <div>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                </div>
+                        <div class="restaurant-demo">
+
+                            <span class="demo-label">
+                                RESTAURANT
+                            </span>
+
+                            <h4>
+                                Taste.
+                                <span>Experience.</span>
+                            </h4>
+
+                            <p>
+                                A modern dining experience.
+                            </p>
+
+                            <button>
+                                Explore Menu
+                            </button>
+
+                            <div class="demo-food-card">
+                                ★
                             </div>
 
-                            <div class="mock-hero">
-                                <small>AUTHENTIC FLAVORS</small>
-                                <strong>Good food.<br>Good mood.</strong>
-                                <em>Explore Menu →</em>
-                            </div>
-
-                            <div class="mock-cards">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
                         </div>
 
                     </div>
 
-                    <span class="project-category">Business Website</span>
+                    <span class="project-number">
+                        01
+                    </span>
 
                 </div>
 
 
-                <div class="project-info">
+                <div class="project-content">
 
-                    <div>
-                        <span class="project-index">01</span>
-                        <h3>Restaurant Website</h3>
-                    </div>
+                    <span class="project-category">
+                        BUSINESS WEBSITE
+                    </span>
+
+                    <h3>
+                        Restaurant Website
+                    </h3>
 
                     <p>
-                        A modern restaurant website designed to
-                        showcase the menu, brand and customer experience.
+                        A modern restaurant website designed to create
+                        a premium first impression, showcase the menu
+                        and make it easy for customers to get in touch.
                     </p>
 
-                    <div class="project-tags">
+
+                    <div class="project-tech">
+
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
+
                     </div>
 
-                    <a href="#" class="project-link">
-                        View Project
-                        <span>↗</span>
-                    </a>
+
+                    <div class="project-actions">
+
+                        <a href="#" class="project-link primary">
+                            Live Preview
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </div>
 
             </article>
 
 
-            <!-- Project 02 -->
-            <article class="project-card">
+            <!-- =========================
+                 PROJECT 02
+                 ========================= -->
 
-                <div class="project-image project-gym">
+            <article class="project-item project-reverse">
 
-                    <div class="project-browser">
+                <div class="project-preview gym-preview">
+
+                    <div class="browser-window">
 
                         <div class="browser-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
 
-                            <small>fitcore-demo.com</small>
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="browser-address">
+                                fitness.demo
+                            </div>
+
                         </div>
 
-                        <div class="browser-content">
 
-                            <div class="mock-nav">
-                                <strong>FITCORE</strong>
+                        <div class="gym-demo">
 
-                                <div>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                </div>
-                            </div>
+                            <span class="demo-label">
+                                FITNESS
+                            </span>
 
-                            <div class="gym-mock">
-                                <small>TRAIN HARDER</small>
+                            <h4>
+                                BUILD
+                                <span>STRONG.</span>
+                            </h4>
 
-                                <strong>
-                                    BUILD YOUR<br>
-                                    BEST SELF.
-                                </strong>
+                            <p>
+                                Train harder. Become stronger.
+                            </p>
 
-                                <div class="mock-button">
-                                    START NOW
-                                </div>
-                            </div>
+                            <button>
+                                Start Training
+                            </button>
 
-                            <div class="gym-stats">
-                                <span>24/7</span>
-                                <span>50+</span>
-                                <span>10K+</span>
+                            <div class="gym-stat">
+                                24/7
+                                <small>ACCESS</small>
                             </div>
 
                         </div>
 
                     </div>
 
-                    <span class="project-category">Fitness Website</span>
+                    <span class="project-number">
+                        02
+                    </span>
 
                 </div>
 
 
-                <div class="project-info">
+                <div class="project-content">
 
-                    <div>
-                        <span class="project-index">02</span>
-                        <h3>Gym Website</h3>
-                    </div>
+                    <span class="project-category">
+                        FITNESS WEBSITE
+                    </span>
+
+                    <h3>
+                        Gym Website
+                    </h3>
 
                     <p>
-                        A high-energy fitness website with membership,
-                        trainer and workout-focused sections.
+                        A bold fitness website with strong typography,
+                        clear calls-to-action and responsive sections
+                        designed to attract new gym members.
                     </p>
 
-                    <div class="project-tags">
+
+                    <div class="project-tech">
+
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
+
                     </div>
 
-                    <a href="#" class="project-link">
-                        View Project
-                        <span>↗</span>
-                    </a>
+
+                    <div class="project-actions">
+
+                        <a href="#" class="project-link primary">
+                            Live Preview
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </div>
 
             </article>
 
 
-            <!-- Project 03 -->
-            <article class="project-card">
+            <!-- =========================
+                 PROJECT 03
+                 ========================= -->
 
-                <div class="project-image project-shop">
+            <article class="project-item">
 
-                    <div class="project-browser">
+                <div class="project-preview ecommerce-preview">
+
+                    <div class="browser-window">
 
                         <div class="browser-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
 
-                            <small>shop-demo.com</small>
-                        </div>
-
-                        <div class="browser-content">
-
-                            <div class="mock-nav">
-                                <strong>NOVA</strong>
-
-                                <div>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                </div>
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
 
-                            <div class="shop-mock">
+                            <div class="browser-address">
+                                store.demo
+                            </div>
 
-                                <div class="shop-heading">
+                        </div>
+
+
+                        <div class="ecommerce-demo">
+
+                            <div class="store-header">
+                                <strong>STORE.</strong>
+                                <span>Cart (03)</span>
+                            </div>
+
+                            <div class="store-content">
+
+                                <div class="store-copy">
                                     <small>NEW COLLECTION</small>
-                                    <strong>Minimal<br>Essentials.</strong>
+
+                                    <h4>
+                                        Simple.
+                                        <span>Beautiful.</span>
+                                    </h4>
+
+                                    <button>
+                                        Shop Now
+                                    </button>
                                 </div>
 
-                                <div class="product-row">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
+                                <div class="store-product">
+                                    PRODUCT
                                 </div>
 
                             </div>
@@ -967,87 +1074,126 @@
 
                     </div>
 
-                    <span class="project-category">E-commerce</span>
+                    <span class="project-number">
+                        03
+                    </span>
 
                 </div>
 
 
-                <div class="project-info">
+                <div class="project-content">
 
-                    <div>
-                        <span class="project-index">03</span>
-                        <h3>E-commerce Website</h3>
-                    </div>
+                    <span class="project-category">
+                        E-COMMERCE
+                    </span>
+
+                    <h3>
+                        E-commerce Website
+                    </h3>
 
                     <p>
-                        A clean online store concept focused on products,
-                        usability and conversion-friendly design.
+                        A clean online store interface focused on product
+                        presentation, simple navigation and a smooth
+                        shopping experience.
                     </p>
 
-                    <div class="project-tags">
+
+                    <div class="project-tech">
+
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                         <span>PHP</span>
+                        <span>MySQL</span>
+
                     </div>
 
-                    <a href="#" class="project-link">
-                        View Project
-                        <span>↗</span>
-                    </a>
+
+                    <div class="project-actions">
+
+                        <a href="#" class="project-link primary">
+                            Live Preview
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </div>
 
             </article>
 
 
-            <!-- Project 04 -->
-            <article class="project-card">
+            <!-- =========================
+                 PROJECT 04
+                 ========================= -->
 
-                <div class="project-image project-admin">
+            <article class="project-item project-reverse">
 
-                    <div class="project-browser">
+                <div class="project-preview admin-preview">
+
+                    <div class="browser-window">
 
                         <div class="browser-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
 
-                            <small>admin-demo.local</small>
-                        </div>
-
-                        <div class="admin-mock">
-
-                            <div class="admin-sidebar">
-                                <strong>ADMIN</strong>
-
-                                <span></span>
+                            <div class="browser-dots">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </div>
+
+                            <div class="browser-address">
+                                admin.demo
+                            </div>
+
+                        </div>
+
+
+                        <div class="admin-demo">
+
+                            <div class="admin-sidebar">
+
+                                <strong>ADMIN</strong>
+
+                                <span>Dashboard</span>
+                                <span>Users</span>
+                                <span>Orders</span>
+                                <span>Settings</span>
+
+                            </div>
+
 
                             <div class="admin-main">
 
-                                <small>DASHBOARD</small>
+                                <small>
+                                    DASHBOARD
+                                </small>
 
-                                <div class="admin-title">
-                                    <strong>Overview</strong>
-                                </div>
+                                <h4>
+                                    Welcome back, Admin.
+                                </h4>
 
                                 <div class="admin-stats">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
 
-                                <div class="admin-chart">
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
+                                    <div>
+                                        <b>1,248</b>
+                                        <span>Users</span>
+                                    </div>
+
+                                    <div>
+                                        <b>328</b>
+                                        <span>Orders</span>
+                                    </div>
+
+                                    <div>
+                                        <b>₹84K</b>
+                                        <span>Revenue</span>
+                                    </div>
+
                                 </div>
 
                             </div>
@@ -1056,37 +1202,71 @@
 
                     </div>
 
-                    <span class="project-category">PHP / MySQL</span>
+                    <span class="project-number">
+                        04
+                    </span>
 
                 </div>
 
 
-                <div class="project-info">
+                <div class="project-content">
 
-                    <div>
-                        <span class="project-index">04</span>
-                        <h3>PHP Admin Panel</h3>
-                    </div>
+                    <span class="project-category">
+                        WEB APPLICATION
+                    </span>
+
+                    <h3>
+                        PHP Admin Panel
+                    </h3>
 
                     <p>
-                        A responsive admin dashboard connected with PHP
-                        and MySQL for managing website data.
+                        A functional admin dashboard built for managing
+                        users, orders and website data through a secure
+                        and organized backend interface.
                     </p>
 
-                    <div class="project-tags">
+
+                    <div class="project-tech">
+
                         <span>PHP</span>
                         <span>MySQL</span>
                         <span>JavaScript</span>
+                        <span>CSS</span>
+
                     </div>
 
-                    <a href="#" class="project-link">
-                        View Project
-                        <span>↗</span>
-                    </a>
+
+                    <div class="project-actions">
+
+                        <a href="#" class="project-link primary">
+                            Live Preview
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </div>
 
             </article>
+
+        </div>
+
+
+        <div class="projects-bottom">
+
+            <p>
+                More projects are being built.
+            </p>
+
+            <a href="#contact">
+                Have a project in mind?
+                <span>Let's build it →</span>
+            </a>
 
         </div>
 
@@ -1460,28 +1640,90 @@
     </main>
 
 
-    <!-- ==================== FOOTER ==================== -->
-    <footer class="footer">
+    <!-- =========================
+     FOOTER
+     ========================= -->
 
-        <div class="container footer-container">
+<footer class="site-footer">
 
-            <a href="#home" class="logo">
-                <span class="logo-bracket">&lt;</span>
-                Ayaz
-                <span class="logo-bracket">/&gt;</span>
-            </a>
+    <div class="container">
 
-            <p>
-                © <?php echo date("Y"); ?> Ayaz Modan. All rights reserved.
-            </p>
+        <div class="footer-main">
 
-            <a href="#home" class="back-top">
-                Back to top ↑
-            </a>
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                    <span class="logo-mark">A</span>
+
+                    <span class="logo-text">
+                        Ayaz<span>.</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Building clean, modern and professional
+                    websites for businesses and individuals.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <span>Navigation</span>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <span>Services</span>
+
+                <a href="#services">Business Website</a>
+                <a href="#services">Landing Page</a>
+                <a href="#services">PHP / MySQL</a>
+                <a href="#services">Bug Fixing</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <span>Let's work together</span>
+
+                <a href="#contact" class="footer-contact-link">
+                    Start a Project
+                    <b>↗</b>
+                </a>
+
+            </div>
 
         </div>
 
-    </footer>
+
+        <div class="footer-bottom">
+
+            <span>
+                © <?php echo date("Y"); ?> Ayaz Modan.
+                All rights reserved.
+            </span>
+
+            <span>
+                Designed & built with care.
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
 
 
     <!-- JavaScript -->
